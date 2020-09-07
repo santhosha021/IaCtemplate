@@ -1,7 +1,6 @@
 provider "azurerm" {
   features{}
   version = "2.21.0"
-  subscription_id="2040f397-6226-41ad-8425-ce61a75ac261"
 }
 
 #create resource group
