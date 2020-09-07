@@ -12,7 +12,7 @@ variable “resource_group_name” {
 
 provider “azurerm” {
 
-  version = “=2.0.0”
+  version = "=2.0.0"
 
   features {}
 
@@ -30,7 +30,7 @@ resource “azurerm_resource_group” “rg” {
 
 resource “azurerm_virtual_network” “terraform” {
 
-  name                = “terraform-network”
+  name                = "terraform-network"
 
   resource_group_name = azurerm_resource_group.rg.name
 
@@ -48,6 +48,6 @@ resource “azurerm_subnet” “app-subnet” {
 
   virtual_network_name = azurerm_virtual_network.terraform.name
 
-  address_prefix       = “10.10.0.0/25”
+  address_prefix       = "10.10.0.0/25"
 
 }
