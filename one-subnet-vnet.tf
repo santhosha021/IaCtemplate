@@ -7,9 +7,6 @@ provider "azurerm" {
 resource "azurerm_resource_group" "rg" {
     name     = "aue-rg-Terraform"
     location = "australiaeast"
-    tags      = {
-      Environment = "Terraform Demo"
-    }
 }
 #create Azure VNET
 resource "azurerm_virtual_network" "test" {
