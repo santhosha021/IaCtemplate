@@ -36,3 +36,6 @@ resource "azurerm_virtual_network" "terraform" {
    provider = "azurerm.vsprofile"
 
 }
+
+
+//need provider.tf file
