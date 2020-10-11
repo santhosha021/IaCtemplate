@@ -43,7 +43,7 @@ variable "subnet_names" {
 
 provider "azurerm" {
   features {}
-  subscription_id = "2040f397-6226-41ad-8425-ce61a75ac261"
+  subscription_id = "xxxxxxxxxxx-xxxxxxxxxxxxxx"
 }
 
 #############################################################################
